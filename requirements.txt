@@ -1,0 +1,18 @@
+# we use the old PM4Py API that was considerably changed in 2.3.0
+pm4py~=2.2.32
+numpy 
+pandas 
+networkx 
+deprecation
+matplotlib
+scipy
+scikit-learn
+lxml 
+graphviz
+plotnine
+tqdm
+jupyterlab
+ipywidgets
+# CUDA enabled PyTorch is very large
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
